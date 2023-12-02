@@ -10,13 +10,13 @@ const Footer = () => {
     <div className='pt-50 footer-bg position-relative'>
       <div className="container">
         <div className="d-flex align-items-center flex-column justify-content-center pt-78">
-                <img src={footerlogo} alt="" />
-                <p className='footer-p'>Proudly Australian developed software. Focused on increasing efficiency and growing business within the beauty industry.</p>
-                <div className='d-flex align-items-center gap-51 pt-34'>
-                        <p className='common-p'>Navigation</p>
-                        <p className='common-p'>Company</p>
-                        <p className='common-p'>Contact</p>
-                </div>
+          <img src={footerlogo} alt="" />
+          <p className='footer-p'>Proudly Australian developed software. Focused on increasing efficiency and growing business within the beauty industry.</p>
+          <div className='d-flex align-items-center gap-51 pt-34'>
+            <p className='common-p position-relative footer-lh'>Navigation</p>
+            <p className='common-p position-relative footer-lh'>Company</p>
+            <p className='common-p position-relative footer-lh'>Contact</p>
+          </div>
         </div>
       </div>
       <div className='footer-l'>
